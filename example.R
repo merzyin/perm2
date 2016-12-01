@@ -29,7 +29,7 @@ it <- function(n){
 examples <- it(10000)
 
 par(mfrow=c(1,1))
-hist(examples, col = "red", breaks = 100, main="Random Permutations", xlab="")
+hist(examples, col = "pink", breaks = 100, main="Random Permutations", xlab="")
 abline(v = test.diff, col = "black", lwd = 4)
 
 
